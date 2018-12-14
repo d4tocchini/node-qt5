@@ -19,12 +19,12 @@
             ['OS=="mac"', {
                 'xcode_settings': {
                     'LD_RUNPATH_SEARCH_PATHS': [
-                        '@excutable_path/deps/qt-5.10.1/darwin/x64/Frameworks',
-                        '@loader_path/deps/qt-5.10.1/darwin/x64/Frameworks',
-                        '@excutable_path/../deps/qt-5.10.1/darwin/x64/Frameworks',
-                        '@loader_path/../deps/qt-5.10.1/darwin/x64/Frameworks',
-                        '@excutable_path/../../deps/qt-5.10.1/darwin/x64/Frameworks',
-                        '@loader_path/../../deps/qt-5.10.1/darwin/x64/Frameworks'
+                        '@excutable_path/deps/qt-5.12.0/darwin/x64/Frameworks',
+                        '@loader_path/deps/qt-5.12.0/darwin/x64/Frameworks',
+                        '@excutable_path/../deps/qt-5.12.0/darwin/x64/Frameworks',
+                        '@loader_path/../deps/qt-5.12.0/darwin/x64/Frameworks',
+                        '@excutable_path/../../deps/qt-5.12.0/darwin/x64/Frameworks',
+                        '@loader_path/../../deps/qt-5.12.0/darwin/x64/Frameworks'
                     ],
                     'OTHER_CPLUSPLUSFLAGS': [
                         '-stdlib=libc++',
@@ -66,16 +66,16 @@
                 {
                     'include_dirs': [
                         "<!(node -e \"require('nan')\")",
-                        'deps/qt-5.10.1/win32/ia32/include',
-                        'deps/qt-5.10.1/win32/ia32/include/QtCore',
-                        'deps/qt-5.10.1/win32/ia32/include/QtGui',
-                        'deps/qt-5.10.1/win32/ia32/include/QtTest',
+                        'deps/qt-5.12.0/win32/ia32/include',
+                        'deps/qt-5.12.0/win32/ia32/include/QtCore',
+                        'deps/qt-5.12.0/win32/ia32/include/QtGui',
+                        'deps/qt-5.12.0/win32/ia32/include/QtTest',
                     ],
                     'libraries': [
                         # TODO: fix node-gyp behavior that requires ../
-                        '../deps/qt-5.10.1/win32/ia32/lib/QtCore4.lib',
-                        '../deps/qt-5.10.1/win32/ia32/lib/QtGui4.lib',
-                        '../deps/qt-5.10.1/win32/ia32/lib/QtTest4.lib'
+                        '../deps/qt-5.12.0/win32/ia32/lib/QtCore4.lib',
+                        '../deps/qt-5.12.0/win32/ia32/lib/QtGui4.lib',
+                        '../deps/qt-5.12.0/win32/ia32/lib/QtTest4.lib'
                     ]
                 }
             ]
